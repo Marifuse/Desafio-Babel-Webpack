@@ -9,4 +9,4 @@ var people = [
         return person.age > 10 && person.age < 20
     }
         var thereAreTeenagers = people.some(teenager)
-        document.write('There are teenagers:', thereAreTeenagers);
+        document.write('There are teenagers: ', thereAreTeenagers);
